@@ -21,7 +21,7 @@ export default function Home() {
 
       <div className="2xl:px-20 px-10 flex flex-col items-start justify-start w-full gap-6">
         <h2 className="text-2xl text-text-a font-bold">Garanta seu desconto</h2>
-        <Button className=" bg-yellow-main text-black text-lg font-bold w-80 h-12"><Link href="https://pagamento.escolaconquer.com.br/CW-14082024145915049CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU" target="_blank">Ir para a Conquer </Link></Button>
+        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12"><Link href="https://pagamento.escolaconquer.com.br/CW-14082024145915049CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU" target="_blank">Ir para a Conquer </Link></Button>
         <p className="text-text-a text-3xl font-bold">Fale inglês com confiança e acelere a sua carreira de forma assertiva.</p>
       </div> 
               
@@ -35,7 +35,7 @@ export default function Home() {
       <div className="2xl:px-20 px-10 w-full  2xl:mt-14 mt-10 flex flex-col items-start justify-center ">
         <p className="text-text-a 2xl:text-[28px] xl:text-[28px] text-[22px] font-bold">Junte-se a mais de 8.000 profissionais comprometidos em alavancar suas carreiras com o Conquer English</p>
         <p className="text-text-a 2xl:text-[22px] xl:text-[22px] text-[18px] font-normal mt-8">Iniciando do zero e com uma dedicação de 5 horas semanais você pode conquistar sua fluência em 1 ano e 6 meses! 🤩 Está nas suas mãos definir em quanto tempo vai acelerar a sua carreira. E agora é sua chance de começar tudo isso!</p>
-        <Button className=" bg-yellow-main text-black text-lg font-bold w-80 h-12 mt-8 "><Link href="https://pagamento.escolaconquer.com.br/CW-14082024145915049CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU" target="_blank">Comece agora </Link></Button>        
+        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 "><Link href="https://pagamento.escolaconquer.com.br/CW-14082024145915049CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU" target="_blank">Comece agora </Link></Button>        
       </div>
 
       <div className="2xl:px-20 px-10 w-full mb-14 mt-14 flex flex-wrap items-center justify-center gap-14">
@@ -76,7 +76,7 @@ export default function Home() {
       </div>
       <div className="2xl:px-20 px-10 w-full  mb-14 flex flex-col items-start justify-center ">
       
-        <Button className=" bg-yellow-main text-black text-lg font-bold w-80 h-12 mt-8 "><Link href="https://pagamento.escolaconquer.com.br/CW-14082024145915049CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU" target="_blank" >Comece agora </Link> </Button>        
+        <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 "><Link href="https://pagamento.escolaconquer.com.br/CW-14082024145915049CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU" target="_blank" >Comece agora </Link> </Button>        
       </div>
 
       <footer className="flex flex-wrap items-center justify-center gap-6 w-full bg-black py-8 2xl:px-20 px-10">
