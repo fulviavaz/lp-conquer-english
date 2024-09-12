@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
       <nav className="flex items-center justify-between w-full bg-black py-4 2xl:px-20 px-10">
-        <Image src="/itau.png" alt="logo itau" width={44} height={44} />
-        <Image src="/conquer-english.png" alt="logo conquer" width={136} height={42}/>
+        <Image src="/itauuniclass/minhasvantagens/conquerenglish/images/itau.png" alt="logo itau" width={44} height={44} />
+        <Image src="/itauuniclass/minhasvantagens/conquerenglish/images/conquer-english.png" alt="logo conquer" width={136} height={42}/>
       </nav>
     <div className="flex flex-col items-center justify-center w-full">
-        <div className=" bg-[url('/main-eng.png')] bg-cover bg-center 2xl:w-[830px] 2xl:h-[394px] xl:w-[830px] xl:h-[394px] w-[328px] h-[413px] relative items-center mt-10 mb-10 bg-black rounded-3xl">  
+        <div className=" bg-[url('/itauuniclass/minhasvantagens/conquerenglish/images/main-eng.png')] bg-cover bg-center 2xl:w-[830px] 2xl:h-[394px] xl:w-[830px] xl:h-[394px] w-[328px] h-[413px] relative items-center mt-10 mb-10 bg-black rounded-3xl">  
           <div className="absolute bottom-5 left-5">
             <h1 className="text-3xl text-white font-bold">Conquer english</h1>
             <h3 className="text-lg text-white font-bold">Aproveite os descontos!</h3>
@@ -40,7 +40,7 @@ export default function Home() {
 
       <div className="2xl:px-20 px-10 w-full mb-14 mt-14 flex flex-wrap items-center justify-center gap-14">
         <div className="flex items-center justify-center">
-          <Image src="/carreira.png" alt="carreira" width={364} height={387} />
+          <Image src="/itauuniclass/minhasvantagens/conquerenglish/images/carreira.png" alt="carreira" width={364} height={387} />
         </div>
         <div className="flex items-center justify-center w-[399px] ">
             <ul className="list-disc list-inside ">
@@ -81,7 +81,7 @@ export default function Home() {
 
       <footer className="flex flex-wrap items-center justify-center gap-6 w-full bg-black py-8 2xl:px-20 px-10">
         <p className="text-white text-sm ">Powered by</p>
-        <Image src="/indico.png" alt="logo itau" width={81} height={25} />
+        <Image src="/itauuniclass/minhasvantagens/conquerenglish/images/indico.png" alt="logo itau" width={81} height={25} />
         <p className="text-white text-[8px] 2xl:text-xs ">CAOS SISTEMAS DINÂMICOS E COMPLEXOS LTDA - Brasil - CNPJ 05.934.733/0001-17</p>
       </footer>
     
