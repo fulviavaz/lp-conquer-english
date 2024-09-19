@@ -10,20 +10,23 @@ export default function Home() {
         <Image src="/itauuniclass/minhasvantagens/conquerenglish/images/itau.png" alt="logo itau" width={44} height={44} />
         <Image src="/itauuniclass/minhasvantagens/conquerenglish/images/conquer-english.png" alt="logo conquer" width={136} height={42}/>
       </nav>
-    <div className="flex flex-col items-center justify-center w-full">
-        <div className=" bg-[url('/itauuniclass/minhasvantagens/conquerenglish/images/main-eng.png')] bg-cover bg-center 2xl:w-[830px] 2xl:h-[394px] xl:w-[830px] xl:h-[394px] w-[328px] h-[413px] relative items-center mt-10 mb-10 bg-black rounded-3xl">  
-          <div className="absolute bottom-5 left-5">
-            <h1 className="text-3xl text-white font-bold">Conquer english</h1>
-            <h3 className="text-lg text-white font-bold">Aproveite os descontos!</h3>
-            </div>
+      {/* hero */}
+    <div className="flex flex-wrap-reverse gap-10 items-center justify-between w-full bg-[#0131FF] py-24 2xl:px-30 xl:px-40 lg:px-30 px-10">
+        <div className="2xl:w-[500px] xl:w-[500px] lg:w-[500px] flex flex-col">
+          <h1 className="text-white 2xl:text-4xl xl:text-4xl lg:text-4xl text-2xl font-bold ">Conquer e Uniclass<br/>
+            Uma parceria para<br/> investir no seu futuro</h1>
+          <p className="text-lg font-semibold text-white mt-10">Aproveite os descontos exclusivos minhas vantagens!</p>
+        </div>
+        <div>
+          <Image src="/itauuniclass/minhasvantagens/conquerenglish/images/cenglish.png" alt="logo itau" width={616} height={130} />
         </div>
         </div>
 
-      <div className="2xl:px-20 px-10 flex flex-col items-start justify-start w-full gap-6">
+      {/* <div className="2xl:px-20 px-10 flex flex-col items-start justify-start w-full gap-6">
         <h2 className="text-2xl text-text-a font-bold">Garanta seu desconto</h2>
         <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12"><Link href="https://pagamento.escolaconquer.com.br/CW-14082024145915049CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU" target="_blank">Ir para a Conquer </Link></Button>
         <p className="text-text-a text-3xl font-bold">Fale inglês com confiança e acelere a sua carreira de forma assertiva.</p>
-      </div> 
+      </div>  */}
               
       <div className="2xl:px-20 px-10 w-full  mt-14 flex flex-wrap items-center justify-center 2xl:gap-32">     
         <div className="flex items-center justify-center"><Image src="/itauuniclass/minhasvantagens/conquerenglish/images/celphone.png" alt="telefone" width={415} height={488}/></div>
