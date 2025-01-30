@@ -39,8 +39,10 @@ export default function Home() {
         <p className="text-text-a 2xl:text-[28px] xl:text-[28px] text-[22px] font-bold">Junte-se a mais de 8.000 profissionais comprometidos em alavancar suas carreiras com o Conquer English</p>
         <p className="text-text-a 2xl:text-[22px] xl:text-[22px] text-[18px] font-normal mt-8">Iniciando do zero e com uma dedicação de 5 horas semanais você pode conquistar sua fluência em 1 ano e 6 meses! 🤩 Está nas suas mãos definir em quanto tempo vai acelerar a sua carreira. E agora é sua chance de começar tudo isso!</p>
         <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 ">
-          <Link href="https://pagamento.escolaconquer.com.br/CW-30102024105636205CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU
-" target="_blank">Comece agora </Link></Button>        
+          <Link href="https://cnqr.com.br/r/itau" target="_blank">Comece agora </Link></Button>  
+          <p className="text-black text-sm font-normal mb-6 mt-6">Ao escolher o curso desejado, você será direcionado para página de check-out. Preencha os dados do cartão e, no campo “possui cupom?”, insira o cupom ITAÚ para garantir o desconto e seguir com o pagamento.
+
+Seu cupom é <strong>ITAÚ</strong> </p> 
       </div>
 
       <div className="2xl:px-20 px-10 w-full mb-14 mt-14 flex flex-wrap items-center justify-center gap-14">
@@ -82,8 +84,10 @@ export default function Home() {
       <div className="2xl:px-20 px-10 w-full  mb-14 flex flex-col items-start justify-center ">
       
         <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 ">
-          <Link href="https://pagamento.escolaconquer.com.br/CW-30102024105636205CRSTNHLND?utm_source=ITAU&utm_medium=ITAU&utm_campaign=ITAU&utm_id=ITAU&utm_term=ITAU&utm_content=ITAU
-" target="_blank" >Comece agora </Link> </Button>        
+          <Link href="https://cnqr.com.br/r/itau" target="_blank">Comece agora </Link></Button>  
+          <p className="text-black text-sm font-normal mb-6 mt-6">Ao escolher o curso desejado, você será direcionado para página de check-out. Preencha os dados do cartão e, no campo “possui cupom?”, insira o cupom ITAÚ para garantir o desconto e seguir com o pagamento.
+
+Seu cupom é <strong>ITAÚ</strong> </p>       
       </div>
 
       <footer className="flex flex-wrap items-center justify-center gap-6 w-full bg-black py-8 2xl:px-20 px-10">
