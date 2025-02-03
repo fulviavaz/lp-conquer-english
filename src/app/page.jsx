@@ -44,9 +44,7 @@ export default function Home() {
         <p className="text-text-a 2xl:text-[22px] xl:text-[22px] text-[18px] font-normal mt-8">Iniciando do zero e com uma dedicação de 5 horas semanais você pode conquistar sua fluência em 1 ano e 6 meses! 🤩 Está nas suas mãos definir em quanto tempo vai acelerar a sua carreira. E agora é sua chance de começar tudo isso!</p>
         <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 ">
           <Link href="https://cnqr.com.br/r/itau" target="_blank">Comece agora </Link></Button>  
-          <p className="text-black text-sm font-normal mb-6 mt-6">Ao escolher o curso desejado, você será direcionado para página de check-out. Preencha os dados do cartão e, no campo “possui cupom?”, insira o cupom ITAÚ para garantir o desconto e seguir com o pagamento.
-
-Seu cupom é <strong>ITAÚ</strong> </p> 
+          <p className="text-black text-sm font-normal mb-6 mt-6">Ao escolher o curso desejado, você será direcionado para página de check-out. Preencha os dados do cartão e, no campo “possui cupom?”, insira o cupom <strong>ITAÚ</strong> para garantir o desconto e seguir com o pagamento.</p> 
       </div>
 
       <div className="2xl:px-20 px-10 w-full mb-14 mt-14 flex flex-wrap items-center justify-center gap-14">
@@ -89,9 +87,7 @@ Seu cupom é <strong>ITAÚ</strong> </p>
       
         <Button className=" bg-yellow-main text-black text-lg font-bold 2xl:w-80 xl:w-80 lg:w-80 w-full h-12 mt-8 ">
           <Link href="https://cnqr.com.br/r/itau" target="_blank">Comece agora </Link></Button>  
-          <p className="text-black text-sm font-normal mb-6 mt-6">Ao escolher o curso desejado, você será direcionado para página de check-out. Preencha os dados do cartão e, no campo “possui cupom?”, insira o cupom ITAÚ para garantir o desconto e seguir com o pagamento.
-
-Seu cupom é <strong>ITAÚ</strong> </p>       
+          <p className="text-black text-sm font-normal mb-6 mt-6">Ao escolher o curso desejado, você será direcionado para página de check-out. Preencha os dados do cartão e, no campo “possui cupom?”, insira o cupom <strong>ITAÚ</strong> para garantir o desconto e seguir com o pagamento.</p>       
       </div>
 
     
